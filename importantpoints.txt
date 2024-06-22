@@ -1,0 +1,9 @@
+gsap.to(the element which we want to animate,{
+    animate
+})
+gsap.to -> initial position to final
+gsap.from -> final to initial 
+
+let timeLine = gsap.timeline();
+thi timeLine keeps the track of the animations of the 
+page taking place
