@@ -1,0 +1,25 @@
+scrollTrigger -> in camelcase
+add its cdn from the website and beforet the gsap script file
+we will make the object of the scroll trigger file
+markes are for our benifit to try out which place is ok or not
+the start point is from where the scroll starts
+the end is to be more negative and long for the long scroll
+the scrub is for carriying out ther functionality each time we scroll
+the pin is to make sure that while scrolling the page is intact
+
+key points->
+-> the trigger is the particular element genrally which we want to scroll
+-> but if we use the pin then the parent is assigned as the trigger
+
+gsap.to(".page2 h1",{
+    transform:"translateX(-150%)",
+    scrollTrigger:{
+        trigger:".page2",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        end:"top -150%",
+        scrub:2,
+        pin:true
+    }
+})
