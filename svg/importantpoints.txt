@@ -1,0 +1,11 @@
+path -> copy from the path in website
+
+M means the starting point
+the 10 is the distance from the x
+the 100 is distance from the bottom of div to the y
+the 500 is the distance from the origin(0,0 of the div left cor.) to point
+the next is the distance from the top of the div to y
+then the final point distance from the originand from the y
+
+
+-> the ease is from -- easing gsap website
