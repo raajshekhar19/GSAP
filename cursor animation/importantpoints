@@ -1,2 +1,6 @@
 position absolute karne se ek hi page me reh jayega
 position fixed rakhne se multiple pages pe possible ho payega
+
+
+jab bhi agar koi image pe hover karne k task hoga to usse pehle uske upar ek mask lagana hoga taki wo 
+jo scrolling ho wo smooth ho yahn per wo iverlay h
