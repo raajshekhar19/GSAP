@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor{
+    height:1rem;
+    width: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    font-size:0.32rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+}
+#image{
+    height: 30vw;
+    width: 70vw;
+    background-color: rgb(235, 76, 76);
+    border-radius: 2.5rem;
+    position: relative;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5rem;
+    object-fit: cover;
+    z-index: 2;
+}
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5rem;
+    position: absolute;
+    z-index: 10;
+}
+of{
+    background-color: rgb(110, 100, 100);
+}
